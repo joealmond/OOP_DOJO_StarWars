@@ -1,0 +1,45 @@
+Star Wars
+General Kenobi. Years ago you served my father in the Clone Wars. Now he begs you to help him in his struggle against the Empire. I regret that I am unable to present my father's request to you in person, but my ship has fallen under attack, and I'm afraid my mission to bring you to Alderaan has failed. I have placed information vital to the survival of the Rebellion into the memory systems of this R2 unit. My father will know how to retrieve it. You must see this droid safely delivered to him on Alderaan. This is our most desperate hour. Help me, Obi-Wan Kenobi. You're my only hope.
+
+After receiving this urgent message, you did everything in your power to retrieve this vital information. In it: the only way the Rebel forces can win against the evil Empire! As it turns out the plan is very simple! You’ll have to write a program that can track how the war is going. With that information the generals in the Rebel army can formulate new plans to win more battles against the Empire! Here is what we need to track:
+Unit:
+Has a unique identifier
+Has battle power
+Knows which army it belongs to (Rebels or Empire)
+They have a color to make them easier to identify in the battlefield (Rebel units are blue and Empire units are red)
+They know if they are ready to deploy in battle
+Keeps track of all battles it has been in
+Soldier:
+Is a unit
+Has a name
+They are ready for battle if they have received their weapon
+Their battle power is 1
+Can be killed
+Droid:
+Is a unit
+Has a manufacturer
+Has max battery capacity
+Has battery power (measured in watt)
+They are ready for battle if their battery is over 65%
+Their battle power is 2
+Can be killed
+AT-AT:
+Is a unit
+Has a manufacturer
+Has soldiers who drive it
+Has max battery capacity
+Has battery power (measured in watt)
+They are ready for battle if their battery is over 80% and have at least 2 battle ready soldiers in it
+Their battle power is 20
+Cannot be killed
+Battle:
+Has two armies: One Rebel and one Empire
+Can be fought and the winner will be the army who has the most battle power (Only battle ready units count!)
+The losing side loses 35% of its killable units
+The STAR WAR:
+Keeps track of all Rebel and Empire forces
+Keeps track of all battles
+Can tell the unit with the most battles survived
+Can tell the most devastating battle (where the most units died)
+
+No pressure, you have around 45 minutes to create this program or the Universe is DOOMED! Also, don’t forget that we will need some unit (not that one) tests so we can be sure that our program is always working as intended!
